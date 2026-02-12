@@ -468,8 +468,8 @@ const EcommerceHomepage = () => {
       <div className="bg-white px-3 py-3 sm:px-6 lg:px-8 shadow-sm sticky top-0 z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <img src="/logo.jpg" alt="Logo" className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg object-cover" />
-            <h1 className="text-lg sm:text-xl font-bold text-gray-900 hidden sm:block">NEWBEICHINI</h1>
+            <img src="/logo.png" alt="Gosolar Logo" className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg object-cover" />
+            <h1 className="text-lg sm:text-xl font-bold text-gray-900 hidden sm:block">Gosolar</h1>
           </div>
 
           <div className="flex-1 max-w-xl relative">
@@ -959,14 +959,14 @@ const EcommerceHomepage = () => {
             {/* Brand */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <img src="/logo.jpg" alt="Logo" className="w-12 h-12 rounded-lg object-cover" />
+                <img src="/logo.png" alt="Gosolar Logo" className="w-12 h-12 rounded-lg object-cover" />
                 <div>
-                  <h3 className="text-lg font-bold">NEWBEICHINI</h3>
-                  <p className="text-xs text-gray-400">Your Shopping Destination</p>
+                  <h3 className="text-lg font-bold">Gosolar</h3>
+                  <p className="text-xs text-gray-400">Your Solar Solution</p>
                 </div>
               </div>
               <p className="text-sm text-gray-400 mb-4 leading-relaxed">
-                Quality products at unbeatable prices. Fast delivery across Kigali. Your satisfaction is our priority.
+                Quality solar products at unbeatable prices. Fast delivery across Kigali. Your satisfaction is our priority.
               </p>
               <div className="mb-4">
                 <div className="text-sm font-semibold mb-2">Rated 5.0 Stars</div>
@@ -994,7 +994,7 @@ const EcommerceHomepage = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="w-4 h-4" />
-                      <span>nyamirambo@NEWBEICHINI.rw</span>
+                      <span>nyamirambo@gosolar.rw</span>
                     </div>
                   </div>
                 </div>
@@ -1007,7 +1007,7 @@ const EcommerceHomepage = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="w-4 h-4" />
-                      <span>gikondo@NEWBEICHINI.rw</span>
+                      <span>gikondo@gosolar.rw</span>
                     </div>
                   </div>
                 </div>
@@ -1047,16 +1047,29 @@ const EcommerceHomepage = () => {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">© 2024 NEWBEICHINI Shop. All rights reserved.</p>
-            <div>
-              <p className="text-sm text-gray-400 mb-2">We accept:</p>
-              <div className="flex gap-3">
-                <div className="bg-gray-800 rounded px-3 py-1">
-                  <span className="text-xs font-bold text-white">MTN MoMo</span>
+          <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
+              <p className="text-sm text-gray-400">© 2024 Gosolar. All rights reserved.</p>
+              <div>
+                <p className="text-sm text-gray-400 mb-2">We accept:</p>
+                <div className="flex gap-3">
+                  <div className="bg-gray-800 rounded px-3 py-1">
+                    <span className="text-xs font-bold text-white">MTN MoMo</span>
+                  </div>
+                  <div className="bg-gray-800 rounded px-3 py-1">
+                    <span className="text-xs font-bold text-white">Cash</span>
+                  </div>
                 </div>
-                <div className="bg-gray-800 rounded px-3 py-1">
-                  <span className="text-xs font-bold text-white">Cash</span>
+              </div>
+            </div>
+            
+            {/* Website Made By */}
+            <div className="border-t border-gray-800 pt-6">
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                <img src="/4ra.png" alt="4KVISION LTD" className="h-16 w-auto object-contain" />
+                <div className="text-center md:text-left">
+                  <p className="text-sm text-gray-400">Website made by <span className="font-semibold text-white">4KVISION LTD</span></p>
+                  <p className="text-xs text-gray-500">KN 84 st Inkurunziza building</p>
                 </div>
               </div>
             </div>
