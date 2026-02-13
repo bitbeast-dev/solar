@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gosolar - Quality Solar Products",
+  title: "SUN ENERGY - Quality Solar Products",
   description: "Quality solar products at unbeatable prices. Fast delivery across Kigali.",
   icons: {
     icon: [
@@ -26,9 +26,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body className="antialiased" style={{fontFamily: 'Pacifico, cursive'}}>
+      <body className="antialiased" style={{fontFamily: 'Poppins, sans-serif'}}>
         {children}
       </body>
     </html>
