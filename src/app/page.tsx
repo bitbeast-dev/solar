@@ -261,7 +261,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="border-t border-[#e5ad48]/20 pt-8 text-center text-white/70 text-sm">
-            <p className="mb-6">© 2024 by Gosolar. Powering Rwanda's Future</p>
+            <p className="mb-6">© 2024 by Sun Energy. Powering Rwanda's Future</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <img src="/4ra.png" alt="4KVISION LTD" className="h-16 w-auto object-contain" />
               <div className="text-center md:text-left">
