@@ -167,7 +167,7 @@ const HomePage = () => {
             <div className="bg-white shadow-lg hover:shadow-xl transition-all overflow-hidden">
               <img src="/solarheatpumps.jfif" alt="Solar Heat Pumps" className="w-full h-64 object-cover" />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-[#013430] mb-2">Solar Heat Pumps</h3>
+                <h3 className="text-xl font-bold text-[#013430] mb-2">Hi Solar Heat Pumps</h3>
                 <p className="text-gray-700">Efficient heating and cooling solutions powered by solar</p>
               </div>
             </div>
@@ -229,7 +229,7 @@ const HomePage = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#e5ad48]">Sun Energy</h3>
-                  <p className="text-sm text-white/80">Gosolar and power Rwanda’s future in</p>
+                  <p className="text-sm text-white/80">Gosolar and power Rwanda’s future</p>
                 </div>
               </div>
               <p className="text-white/70 mb-2">+250 788 689 309</p>
@@ -246,7 +246,7 @@ const HomePage = () => {
               <div className="mt-4 flex gap-4">
                 <a href="#" className="text-white/70 hover:text-[#e5ad48] transition-colors">Facebook</a>
                 <a href="#" className="text-white/70 hover:text-[#e5ad48] transition-colors">LinkedIn</a>
-                <a href="#" className="text-white/70 hover:text-[#e5ad48] transition-colors">Yelp</a>
+                <a href="#" className="text-white/70 hover:text-[#e5ad48] transition-colors">Instagram</a>
               </div>
             </div>
             <div>
