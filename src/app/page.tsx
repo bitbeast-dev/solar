@@ -11,7 +11,7 @@ const HomePage = () => {
   const handleWhatsAppSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (firstName && lastName && message) {
-      const whatsappMessage = `Hello Gosolar, My name is ${firstName} ${lastName}. ${message}`;
+      const whatsappMessage = `Hello Sun Energy, My name is ${firstName} ${lastName}. ${message}`;
       window.open(`https://wa.me/250788689309?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
       setFirstName('');
       setLastName('');
@@ -204,7 +204,7 @@ const HomePage = () => {
           <h2 className="text-4xl font-bold mb-12 text-[#013430]">What Our Happy Clients Say?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-16 bg-[#013430] shadow-lg hover:shadow-xl transition-all">
-              <p className="mb-4 font-light text-white">"Gosolar transformed our home with reliable solar power. No more electricity bills and we contribute to a cleaner environment. Highly recommended!"</p>
+              <p className="mb-4 font-light text-white">"Sun Energy transformed our home with reliable solar power. No more electricity bills and we contribute to a cleaner environment. Highly recommended!"</p>
               <p className="font-semibold text-white">Uwimana Marie, Customer</p>
             </div>
             <div className="p-16 bg-white shadow-lg hover:shadow-xl transition-all">
