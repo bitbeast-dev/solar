@@ -28,7 +28,7 @@ export default function ContactPage() {
               <img src="/logo.png" alt=""/>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-white">Gosolar</h1>
+              <h1 className="text-2xl font-bold text-white">Sun Energy</h1>
               <p className="text-sm text-[#e5ad48]">Powering Rwanda's Future</p>
             </div>
           </div>
@@ -141,10 +141,10 @@ export default function ContactPage() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-[#e5ad48] flex items-center justify-center">
-                  <Sun className="w-6 h-6 text-[#013430]" />
+                  <img src="/logo.png" className="w-10 h-10" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#e5ad48]">Gosolar</h3>
+                  <h3 className="text-xl font-bold text-[#e5ad48]">Sun Energy</h3>
                   <p className="text-sm text-white/80">Powering Rwanda's Future</p>
                 </div>
               </div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
             </div>
           </div>
           <div className="border-t border-[#e5ad48]/20 pt-8 text-center text-white/70 text-sm">
-            <p className="mb-6">© 2024 by Gosolar. Powering Rwanda's Future</p>
+            <p className="mb-6">© 2024 by Sun Energy. Powering Rwanda's Future</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <img src="/4ra.png" alt="4KVISION LTD" className="h-16 w-auto object-contain" />
               <div className="text-center md:text-left">

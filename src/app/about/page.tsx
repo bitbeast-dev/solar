@@ -13,7 +13,7 @@ export default function AboutPage() {
               <img src="/logo.png" alt=""/>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-white">Gosolar</h1>
+              <h1 className="text-2xl font-bold text-white">Sun Energy</h1>
               <p className="text-sm text-[#e5ad48]">Powering Rwanda's Future</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default function AboutPage() {
 
       <section className="py-20 px-6 bg-[#013430]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-5xl font-bold text-center mb-8 text-white">About Gosolar</h2>
+          <h2 className="text-5xl font-bold text-center mb-8 text-white">About Sun Energy</h2>
           <p className="text-center text-[#e5ad48] text-xl max-w-3xl mx-auto">Leading Rwanda's renewable energy revolution with innovative solar solutions</p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-3xl font-bold mb-6 text-[#013430]">Our Mission</h3>
-              <p className="text-gray-700 mb-4">Gosolar is committed to transforming Rwanda's energy landscape by providing accessible, reliable, and sustainable solar power solutions to homes and businesses across the nation.</p>
+              <p className="text-gray-700 mb-4">Sun Energy is committed to transforming Rwanda's energy landscape by providing accessible, reliable, and sustainable solar power solutions to homes and businesses across the nation.</p>
               <p className="text-gray-700">We believe in a future where clean energy powers every household and business, contributing to Rwanda's vision of becoming a green economy leader in Africa.</p>
             </div>
             <div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
 
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="text-3xl font-bold text-center mb-12 text-[#013430]">Why Choose Gosolar?</h3>
+          <h3 className="text-3xl font-bold text-center mb-12 text-[#013430]">Why Choose Sun Energy?</h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 shadow-lg hover:shadow-xl transition-all">
               <h4 className="text-xl font-bold mb-3 text-[#013430]">Expert Team</h4>
@@ -106,7 +106,7 @@ export default function AboutPage() {
                   <Sun className="w-6 h-6 text-[#013430]" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#e5ad48]">Gosolar</h3>
+                  <h3 className="text-xl font-bold text-[#e5ad48]">Sun Energy</h3>
                   <p className="text-sm text-white/80">Powering Rwanda's Future</p>
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="border-t border-[#e5ad48]/20 pt-8 text-center text-white/70 text-sm">
-            <p className="mb-6">© 2024 by Gosolar. Powering Rwanda's Future</p>
+            <p className="mb-6">© 2024 by Sun Energy. Powering Rwanda's Future</p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <img src="/4ra.png" alt="4KVISION LTD" className="h-16 w-auto object-contain" />
               <div className="text-center md:text-left">
