@@ -102,8 +102,8 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-[#e5ad48] flex items-center justify-center">
-                  <Sun className="w-6 h-6 text-[#013430]" />
+                <div className="w-16 h-16 flex items-center justify-center">
+                  <img src="/logo.png"/>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#e5ad48]">Sun Energy</h3>
